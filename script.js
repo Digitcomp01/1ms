@@ -7,7 +7,7 @@ hamburger.addEventListener('click', () => {
 });
 
 document.querySelector('.cont-kembali').addEventListener('click', function() {
-    window.location.href = 'http://localhost/1manshow/pokeleague.php';
+    window.location.href = 'https://digitcomp01.github.io/1ms/pokeleague.html';
 });
 
 function updateText() {
