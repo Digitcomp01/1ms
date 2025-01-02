@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon League</title>
+    <!-- Menghubungkan file CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Menu Bar -->
+    <nav class="MenuBar">
+        <div class="logo">
+        <a href="index.php"><img src="image/icon.png" alt="Icon" class="logo-icon">OneManShow </a>
+    	</div>
+        <ul class="menu">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About Us</a></li>
+            <li><a href="services.php">Services</a></li>
+            <li><a href="portfolio.php">Portfolio</a></li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            &#9776;
+        </div>
+    </nav>
+
+    <!-- Judul -->
+    <section>
+      <h1>
+        <div>
+          <span>GLOBAL</span>
+          <span>RANK</span>
+        </div>
+      </h1>
+    </section>
+
+    <div class="cont-select-rank">
+    <select id="options" onchange="updateText()">
+        <option value="">PILIH RANK</option>
+        <option value="text1">GLOBAL RANK SEASON 1</option>
+        <option value="text2">KANTO REGION SEASON 1</option>
+        <option value="text3">JOHTO REGION SEASON 1</option>
+        <option value="text4">KANTO REGION SEASON 1</option>
+    </select>
+    </div>
+
+    <div class="cont-table-rank", id="output">
+        <h2>Silahkan Pilih Rank Yang Ingin Dilihat.</h2>
+    </div>
+
+    <section>
+      <h2>
+        <div class="cont-kembali">
+          <span>Kembali</span>
+        </div>
+      </h2>
+    </section>
+
+    <!-- Footer Menu -->
+    <footer class="footer-menu">
+        <a href="#">One Man Show</a>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+s
