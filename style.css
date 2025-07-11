@@ -74,6 +74,17 @@ h1 span {
   text-align: center;
 }
 
+@media (max-width: 600px) {
+  h1 {
+    text-transform: none;
+    font-weight: normal;
+    letter-spacing: normal;
+    -webkit-text-stroke: 0;
+    text-shadow: none;
+    color: black;
+  }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     nav.MenuBar ul.menu {
