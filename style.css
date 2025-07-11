@@ -68,6 +68,12 @@ nav.MenuBar ul.menu li a:hover {
     color: black;
 }
 
+h1 span {
+  font-size: clamp(24px, 6vw, 80px);
+  display: block;
+  text-align: center;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     nav.MenuBar ul.menu {
